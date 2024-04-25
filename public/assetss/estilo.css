@@ -1,0 +1,21 @@
+.depa {
+    width: 200px; /* Ancho deseado de los botones */
+    margin: 100px; /* Espacio entre cada botón */
+    padding: 10px; /* Espacio dentro de cada botón */
+    border: 1px solid #7b83d0; /* Borde sólido */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(157, 133, 185, 0.54); /* Sombra */
+    display: inline-block; /* Para que los botones aparezcan en línea */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre los botones */
+    transition: all 0.3s ease; /* Efecto de transición suave */
+}
+
+.depa:hover {
+    transform: translateY(-5px); /* Levantar un poco el botón al pasar sobre él */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+}
+
+.depa img {
+    width: 100%; /* Para que la imagen ocupe todo el espacio dentro del botón */
+    border-radius: 8px; /* Bordes redondeados para la imagen */
+}
